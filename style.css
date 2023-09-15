@@ -20,14 +20,24 @@
   }
   .fundo {
     padding-top: 50px;
-
   }
+
+  /*Barra de Pesquisa , imagem lupa e botão*/
   .lupa {
     max-width: 20px;
-  }
 
+  }
+  .barralupa{
+    margin: 0.5em auto;
+    height: 2em;
+    font-size: 1rem;
+    background-color:rgba(255, 255, 255, 0.447);
+    border-color:#ffffff;
+    border-radius: 8px;
+    align-content: center;
+    align-items: center;
+  }
   .barra {
-    display: block;
     margin: 0.5em auto;
     height: 2em;
     font-size: 1rem;
@@ -39,6 +49,10 @@
     align-items: center;
   }
 
+
+
+
+  /*Parede do carrosel*/
   .parede {
     max-width: 700px;
     align-content: center;
@@ -50,6 +64,7 @@
     max-width: 32px;
     width: 46px;
   }
+
 
 /*Botão Login*/
   .btn-login:hover {
