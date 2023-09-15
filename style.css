@@ -1,0 +1,66 @@
+.primeiro{
+    padding-right: 25px;
+    padding-top: 5px;
+  }
+  .segundo{
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-left: 35px;
+  }
+  .terceiro{
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-left: 35px;
+  }
+  .logo{
+    max-width: 100px;
+  }
+  .borda {
+    font-size: 25px;
+  }
+  .fundo {
+    padding-top: 50px;
+
+  }
+  .lupa {
+    max-width: 20px;
+  }
+
+  .barra {
+    display: block;
+    margin: 0.5em auto;
+    height: 2em;
+    font-size: 1rem;
+    background-color:rgba(255, 255, 255, 0.447);
+    border-color:#ffffff;
+    min-width: 400px;
+    border-radius: 8px;
+  }
+
+  .parede {
+    max-width: 650px;
+    align-content: center;
+    align-items: center;
+    border-radius: 36px;
+  }
+
+  .coraçao {
+    max-width: 32px;
+    width: 46px;
+  }
+
+/*Botão Login*/
+  .btn-login:hover {
+    background: rgb(2, 24, 96);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+
+.btn-login:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+    text-decoration: none;
+}
