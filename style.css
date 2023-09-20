@@ -1,86 +1,134 @@
-.primeiro{
-    padding-right: 25px;
-    padding-top: 5px;
-  }
-  .segundo{
-    padding-right: 35px;
-    padding-top: 5px;
-    padding-left: 35px;
-  }
-  .terceiro{
-    padding-right: 35px;
-    padding-top: 5px;
-    padding-left: 35px;
-  }
-  .logo{
-    max-width: 100px;
-  }
-  .borda {
-    font-size: 25px;
-  }
-  .fundo {
-    padding-top: 50px;
-  }
+/*Icons da NavBar*/
+.icons {
+  max-width: 32px;
+  width: 40px;
+  padding-left: 10px;
+  padding-top: 6px;
+}
 
-  /*Barra de Pesquisa , imagem lupa e botão*/
-  .lupa {
-    max-width: 20px;
+.coraçao {
+  padding-left: 10px;
+}
 
-  }
-  .barralupa{
-    margin: 0.5em ;
-    height: 2em;
-    font-size: 1rem;
-    background-color:rgba(255, 255, 255, 0.447);
-    border-color:#ffffff;
-    border-radius: 8px;
-    align-content: center;
-    align-items: center;
-  }
-  .barra {
-    margin: 0.5em ;
-    height: 2em;
-    font-size: 1rem;
-    background-color:rgba(255, 255, 255, 0.447);
-    border-color:#ffffff;
-    min-width: 400px;
-    border-radius: 8px;
-    align-content: center;
-    align-items: center;
-  }
+/* Nav Bar */
 
+/* Logo */
+.logo {
+  max-width: 5px;
+  width: 135px;
+  padding-bottom: 5px;
+}
 
+/*Barra de Pesquisa , imagem lupa e botão*/
+.lupa {
+  max-width: 20px;
+}
 
+.barralupa {
+  margin: 0.5em auto;
+  height: 2em;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.447);
+  border-color: #ffffff;
+  border-radius: 8px;
+  align-content: center;
+  align-items: center;
+}
 
-  /*Parede do carrosel*/
-  .parede {
-    max-width: 700px;
-    align-content: center;
-    align-items: center;
-   
-  }
+.barra {
+  margin: 0.5em;
+  height: 2em;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.447);
+  border-color: #ffffff;
+  min-width: 400px;
+  border-radius: 8px;
+  align-content: center;
+  align-items: center;
+}
 
-  /*Icons da NavBar*/
-  .coraçao {
-    max-width: 32px;
-    width: 40px;
-    padding-left: 10px;
-    padding-top: 5px;
-  }
-
+.pesquisa {
+  margin: auto;
+}
 
 /*Botão Login Hover*/
-  .btn-login:hover {
-    background: rgb(2, 24, 96);
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    text-decoration: none;
+.btn-login:hover {
+  background: rgb(2, 24, 96);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
 }
 
 .btn-login:hover::before {
-    -webkit-animation: sh02 0.5s 0s linear;
-    -moz-animation: sh02 0.5s 0s linear;
-    animation: sh02 0.5s 0s linear;
-    text-decoration: none;
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+  text-decoration: none;
+}
+
+/* Class para colocar padding top*/
+.fundo2 {
+  padding-top: 15px;
+}
+
+/*Ancorrangem dos links*/
+
+/*COLEÇÃO STREET STYLE*/
+.coss {
+  font-size: 1.2rem;
+  margin: auto;
+  text-decoration: none;
+}
+
+/*COLEÇÃO KOREAN AUTUMN*/
+.cka {
+  font-size: 1.2rem;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+/*COLEÇÃO LUXURY*/
+.clu {
+  font-size: 1.2rem;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+/*COLEÇÃO BUBBEGUM*/
+.cbu {
+  font-size: 1.2rem;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+/* Carrosel */
+/*Parede do carrosel*/
+.parede {
+  max-width: 700px;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* Preços */
+/* Preços abaixo do carrosel */
+.primeiro {
+  padding-right: 25px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.segundo {
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-left: 35px;
+  font-size: 25px;
+}
+
+.terceiro {
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-left: 35px;
+  font-size: 25px;
 }

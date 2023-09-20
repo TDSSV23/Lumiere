@@ -27,24 +27,27 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <form class="d-flex pesquisa justify-content-center" role="search">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 pesquisa">
+
+          <!--Barra de Pesquisa-->
+          <li class="nav-item ">
+            <form class="d-flex  justify-content-center" role="search">
               <input class="form-control me-2 barra" type="search" placeholder="Pesquise" aria-label="Search">
               <button class="btn btn-outline-success barralupa" type="submit"><img src="img/icons-lupa.png" class="lupa d-flex justify-content-center" alt=""></button>
             </form>
           </li>
-          <li class="nav-item">
-           
-          </li>
           </ul>
+
+          <!--Icons-->
           <ul class="nav nav-pills">
           <li class="nav-item">
-            <img src="img/heart.svg" class="img-fluid coraçao" alt="Imagem de um Coração">
+            <img src="img/heart.svg" class="img-fluid icons coraçao" alt="Imagem de um Coração">
           </li>
           <li class="nav-item">
-            <img src="img/cart-plus.svg" class="img-fluid coraçao" alt="Imagem de um carrinho de compras">
+            <img src="img/cart-plus.svg" class="img-fluid icons " alt="Imagem de um carrinho de compras">
           </li>
+          
+          <!--Botão de Login-->
           <li class="nav-item">
             <a href="./login.html" class="nav-link">
               <button class="d-flex btn-login">LOGIN</button>
@@ -55,9 +58,17 @@
     </div>
   </nav>
 
+    <!--Botoes de ancorrangem da one page-->
+    <div class="d-flex mb-3 justify-content-center fundo2">
+      <div class="p-2"><a href="#" class="coss link-dark">STREET STYLE</a></div>
+      <div class="p-2"><a href="#" class="cka link-dark">KOREAN AUTUMN</a></div>
+      <div class="p-2"><a href="#" class="clu link-dark">LUXURY</a></div>
+      <div class="p-2"><a href="#" class="cbu link-dark">BUBBEGUM</a></div>
+    </div>
+
     <!--Carrosel ou Slider automatico-->
     <div class="d-flex justify-content-center">
-      <div id="carouselExampleAutoplaying" class="carousel slide fundo" data-bs-ride="carousel">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
             <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
@@ -87,11 +98,6 @@
         <div class="border-end borda terceiro">R$10 <p></p></div>
       </div>  
     </div>
-
-
-
-
-
 
 </body>
 </html>
