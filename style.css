@@ -1,23 +1,41 @@
 .navbar {
   z-index: 1;
+  background:url(img/BackGround.png);
   width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Background */
 .fundo {
-  background-color: rgb(250, 250, 250);
+  background:url();
   height: 100vh;
   width: 100%;
   z-index: 0;
 }
-
+#principal{
+    background-color: #ffffff;
+    padding-bottom: 100px;
+}
 #STREET {
   background: url(img/);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
+#BUBBEGUM {
+  background: url(img/bublefundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#LUXURY {
+  background: url(img/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 #KOREAN {
   background: url(img/);
   background-repeat: no-repeat;
@@ -25,25 +43,10 @@
   background-position: center;
 }
 
-#BUBBEGUM {
-  background: url(img/bubblegum\(fundo\).jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#LUXURY {
-  background: url(img/);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-
 
 /*Icons da NavBar*/
 .icons {
-  max-width: 32px;
+  max-width: 40px;
   width: 40px;
   padding-left: 10px;
   padding-top: 6px;
@@ -67,23 +70,29 @@
   max-width: 20px;
 }
 
+/* Botão Lupa */
+.btn-outline-light {
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
 .barralupa {
-  margin: 0.5em auto;
+  margin: 0.3em auto;
   height: 2em;
   font-size: 1rem;
-  background-color: rgba(255, 255, 255, 0.447);
+  background-color: rgb(255, 255, 255);
   border-color: #ffffff;
   border-radius: 8px;
   align-content: center;
   align-items: center;
 }
 
+/* Botão de Pesquisa */
 .barra {
-  margin: 0.5em;
+  margin: 0.3em;
   height: 2em;
   font-size: 1rem;
-  background-color: rgba(255, 255, 255, 0.447);
-  border-color: #ffffff;
+  background-color:white;
+  border:1px solid;
   min-width: 400px;
   border-radius: 8px;
   align-content: center;
@@ -94,9 +103,14 @@
   margin: auto;
 }
 
-/*Botão Login Hover*/
+
+
+/*Botão Login*/
+.login{
+  background-color:white;
+}
 .btn-login:hover {
-  background: rgb(2, 24, 96);
+  background: rgb(255, 0, 0);
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -112,7 +126,7 @@
 
 /* Class para colocar padding top*/
 .fundo2 {
-  padding-top: 15px;
+  padding-top: 65px;
 }
 
 /*Ancorrangem dos links*/
@@ -154,24 +168,26 @@
   margin: auto;
 }
 
-/* Preços */
-/* Preços abaixo do carrosel */
-.primeiro {
-  padding-right: 25px;
-  padding-top: 5px;
-  font-size: 25px;
+/* Descriçoes */
+.kombi div, .kombi div img{
+  width: 50vw;
 }
 
-.segundo {
-  padding-right: 35px;
-  padding-top: 5px;
-  padding-left: 35px;
-  font-size: 25px;
+.kombi{
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.terceiro {
-  padding-right: 35px;
-  padding-top: 5px;
-  padding-left: 35px;
-  font-size: 25px;
+.kombi-img{
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.kombi-txt{
+  margin: auto;
+}
+.kombi-txt hr{
+  border: solid 1px black;
+  width: 30rem;
+  margin: auto;    
 }
