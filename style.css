@@ -1,3 +1,41 @@
+/* Background */
+.fundo {
+  background-color: rgb(250, 250, 250);
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+}
+
+#STREET {
+  background: url(img/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#KOREAN {
+  background: url(img/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#BUBBEGUM {
+  background: url(img/bubblegum\(fundo\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#LUXURY {
+  background: url(img/);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
 /*Icons da NavBar*/
 .icons {
   max-width: 32px;
