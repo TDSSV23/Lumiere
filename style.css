@@ -1,3 +1,7 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
 .navbar {
   z-index: 1;
   background:url(img/BackGround.png);
@@ -14,30 +18,35 @@
   width: 100%;
   z-index: 0;
 }
+
 #principal{
     background-color: #ffffff;
     padding-bottom: 100px;
+    background: url(img/BackGround.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 #STREET {
-  background: url(img/);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-#BUBBEGUM {
-  background: url(img/bublefundo.jpg);
+  background: url(img/StreetGround.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 #LUXURY {
-  background: url(img/);
+  background: url(img/LUXURYGround.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#BUBBEGUM {
+  background: url(img/BUBBLEGUMGround.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 #KOREAN {
-  background: url(img/);
+  background: url(img/KOREANGround.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -168,26 +177,53 @@
   margin: auto;
 }
 
-/* Descriçoes */
-.kombi div, .kombi div img{
+
+/* Descriçoes dos estilos */
+.estilo div, .estilo div img{
   width: 50vw;
 }
 
-.kombi{
+.estilo{
   display: flex;
   flex-wrap: nowrap;
 }
 
-.kombi-img{
+.estilo-img{
   border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;
 }
 
-.kombi-txt{
+.estilo-txt{
   margin: auto;
 }
-.kombi-txt hr{
+.estilo-txt hr{
   border: solid 1px black;
   width: 30rem;
   margin: auto;    
+}
+.sub-titulo {
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+/* Classes para o final da one page */
+.contato {
+  width:50vw;
+  height: 100vh;
+  margin: auto;
+  width: 30rem;   
+  display: flex;
+  flex-wrap: nowrap;
+}
+.sobre {
+  width:51vw;
+  height:100vh;
+  margin: auto;
+  width: 30rem;   
+  display: flex;
+  flex-wrap: nowrap;
 }

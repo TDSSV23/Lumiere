@@ -13,137 +13,254 @@
   <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
 
   <!--Nome da Pegina-->
-  <title class="modal-title">Lumiere</title>
+  <title class="modal-title">teste</title>
 </head>
 
+<body class="fundo">
+  <div>
 
-<div>
+    <!--NavBar Principal-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/Logo.png" class="img-fluid logo" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 pesquisa">
 
-  <!--NavBar Principal-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="img/Logo.png" class="img-fluid logo" alt="..."></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 pesquisa">
-
-          <!--Barra de Pesquisa-->
-          <li class="nav-item ">
-            <form class="d-flex  justify-content-center" role="search">
-              <input class="form-control me-2 barra" type="search" placeholder="Pesquise" aria-label="Search">
-              <button class="btn btn-outline-success barralupa" type="submit"><img src="img/icons-lupa.png" class="lupa d-flex justify-content-center" alt=""></button>
-            </form>
-          </li>
+            <!--Barra de Pesquisa-->
+            <li class="nav-item ">
+              <form class="d-flex  justify-content-center" role="search">
+                <input class="me-2 barra" type="search" placeholder="Pesquise" aria-label="Search">
+                <button class="btn btn-outline-light barralupa" type="submit"><img src="img/icons-lupa.png"
+                    class="lupa d-flex justify-content-center" alt=""></button>
+              </form>
+            </li>
           </ul>
 
           <!--Icons-->
-          <ul class="nav nav-pills">
-          <li class="nav-item">
-            <img src="img/heart.svg" class="img-fluid icons coraçao" alt="Imagem de um Coração">
-          </li>
-          <li class="nav-item">
-            <img src="img/cart-plus.svg" class="img-fluid icons " alt="Imagem de um carrinho de compras">
-          </li>
-          
+          <!-- <ul class="nav nav-pills back">
+            <li class="nav-item ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
+                class="bi bi-heart-fill icons coraçao" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+              </svg>
+            </li>
+            <li class="nav-item ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white"
+                class="bi bi-cart-plus-fill icons" viewBox="0 0 16 16">
+                <path
+                  d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM9 5.5V7h1.5a.5.5 0 0 1 0 1H9v1.5a.5.5 0 0 1-1 0V8H6.5a.5.5 0 0 1 0-1H8V5.5a.5.5 0 0 1 1 0z" />
+              </svg>
+            </li> -->
           <!--Botão de Login-->
-          <li class="nav-item">
-            <a href="./login.html" class="nav-link">
-              <button class="d-flex btn-login">LOGIN</button>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+          <!-- <li class="nav-item">
+              <a href="./login.html" class="nav-link">
+                <button class="d-flex btn-login login">LOGIN</button>
+              </a>
+            </li> -->
+          <!-- </ul> -->
 
-<div class="d-flex flex-column mb-3" id="principal">
-   <!--Botoes de ancorrangem da one page-->
-   <div class="d-flex mb-3 justify-content-center fundo2">
-    <div class="p-2"><a href="#STREET" class="coss link-dark">STREET STYLE</a></div>
-    <div class="p-2"><a href="#KOREAN" class="cka link-dark">KOREAN AUTUMN</a></div>
-    <div class="p-2"><a href="#LUXURY" class="clu link-dark">LUXURY</a></div>
-    <div class="p-2"><a href="#BUBBEGUM" class="cbu link-dark">BUBBEGUM</a></div>
-  </div>
-
-  <!--Carrosel ou Slider automatico-->
-  <div class="d-flex justify-content-center">
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-          <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-            src="img/bubblegum.png" alt="Coleção Street Style">
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-            src="img/Luxury.png" alt="">
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-            src="img/Street Style.png" alt="">
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-            src="img/KOREAN AUTUMN.png" alt="">
         </div>
       </div>
+    </nav>
+
+    <div class="d-flex flex-column mb-3" id="principal">
+      
+      <!--Botoes de ancorrangem da one page-->
+      <div class="d-flex mb-3 justify-content-center fundo2">
+        <div class="p-2"><a href="#STREET" class="coss link-dark">STREET STYLE</a></div>
+        <div class="p-2"><a href="#LUXURY" class="clu link-dark">LUXURY</a></div>
+        <div class="p-2"><a href="#BUBBEGUM" class="cbu link-dark">BUBBLEGUM</a></div>
+        <div class="p-2"><a href="#KOREAN" class="cka link-dark">KOREAN AUTUMN</a></div>
+      </div>
+      <!--Carrosel ou Slider automatico-->
+      <div class="d-flex justify-content-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <a href="#STREET" class="cbu">
+                <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
+                  src="img/bubblegum.png" alt="Coleção Bubblegum">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <a href="#LUXURY" class="clu">
+                <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
+                  src="img/Luxury.png" alt="Coleção Luxury">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <a href="#BUBBEGUM" class="coss">
+                <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
+                  src="img/Street Style.png" alt="Coleção STREET Street">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <a href="#KOREAN" class="cka">
+                <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
+                  src="img/KOREAN AUTUMN.png" alt="Coleção KOREAN AUTUMN">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <!--Preços-->
-  <div class="d-flex justify-content-center">
-    <div class="d-flex flex-nowrap">
-      <div class="border-end borda primeiro">R$60 <p class="p-0"></p></div>
-      <div class="border-end borda segundo">R$25 <p></p></div>
-      <div class="border-end borda terceiro">R$10 <p></p></div>
-    </div>  
-  </div>
-</div>
-  <div class="d-flex flex-column mb-3 fundo" id="STREET">
-    <div class="p-2">Flex item 1</div>
-  </div>
-  <div class="d-flex flex-column mb-3 fundo" id="KOREAN">
-    <div class="p-2">Flex item 1</div>
-  </div>
-  <div class="d-flex flex-column mb-3 fundo" id="LUXURY">
-    <div class="p-2">Flex item 1</div>
-  </div>
-  <div class="d-flex flex-column mb-3 fundo" id="BUBBEGUM">
-    <div class="p-2">Flex item 1</div>
-</div>
- 
+    <!-- Descrições dos Estilos de Roupas -->
 
-
-
-<div class="fundo m-auto container-fluid kombi" id="STREET">
-  <div class="m-auto">
-      <img src="img/Street Style.png" class="kombi-img">
-  </div>
-  <div class="kombi-txt text-center">
-      <hr class="border border-3 opacity-75">
-      <h1 class="home-title text-center b fs-1">Street Style</h1>
-      <hr class="border border-3 opacity-75">
+    <!-- Descrição do Estilo STREET STYLE-->
+    <div class="fundo container-fluid teste" id="STREET">
+      <div class="estilo1">
+        <div class="m-auto w-100 text-center">
+          <img src="img/Street Style.png" class="estilo1-img">
+        </div>
+      </div>
       <br>
-      <p class="text-center b sub-titulo fs-6">
-        Uma coleção pensada para quem ama a moda urbana. Ao contrário de tendências efêmeras que são desgastadas rapidamente, o street style é um estilo duradouro e atemporal, mantendo-se atual e versátil em qualquer época.
-      </p>
-  </div>
- 
-      <div class="fundo m-auto container-fluid kombi" id="STREET">
-        <div class="m-auto">
-            <img src="img/Luxury.png" class="kombi-img">
+      <br>
+      <div class="estilo">
+        <div class="m-auto w-50 text-center">
+          <img src="img/Street2.png" class="estilo-img">
         </div>
-        <div class="kombi-txt text-center">
+        <div class="estilo-txt text-center">
+          <hr class="border border-3 opacity-75">
+          <h1 class="title text-center b fs-1">Street Style</h1>
+          <hr class="border border-3 opacity-75">
+          <br>
+          <p class="text-center b sub-titulo fs-6">
+            Uma coleção pensada para quem ama a moda urbana. Ao contrário de tendências efêmeras que são desgastadas
+            rapidamente, o street style é um estilo duradouro e atemporal, mantendo-se atual e versátil em qualquer
+            época.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fundo container-fluid teste" id="KOREAN">
+      <div class="estilo1">
+        <div class="m-auto w-100 text-center">
+          <img src="img/KOREAN AUTUMN.png" class="estilo1-img">
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="estilo">
+        <div class="estilo-txt text-center">
+          <hr class="border border-3 opacity-75">
+          <h1 class="title text-center b fs-1">KOREAN AUTUMN</h1>
+          <hr class="border border-3 opacity-75">
+          <br>
+          <p class="text-center b sub-titulo fs-6">
+            Leves roupas em camadas, como suéteres leves e jaquetas. Esse estilo é caracterizado por sua abordagem única,
+            com um equilíbrio entre o minimalismo e a sofisticação.
+          </p>
+        </div>
+        <div class="m-auto w-50 text-center">
+          <img src="img/KOREAN2.png" class="estilo-img">
+        </div>
+      </div>
+    </div>
+
+    <div class="fundo container-fluid teste" id="BUBBEGUM">
+      <div class="estilo1">
+        <div class="m-auto w-100 text-center">
+          <img src="img/bubblegum.png" class="estilo1-img">
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="estilo">
+        <div class="m-auto w-50 text-center">
+          <img src="img/Bubble.png" class="estilo-img">
+        </div>
+        <div class="estilo-txt text-center">
+          <hr class="border border-3 opacity-75">
+          <h1 class="title text-center b fs-1">BUBBLEGUM</h1>
+          <hr class="border border-3 opacity-75">
+          <br>
+          <p class="text-center b sub-titulo fs-6">
+            O estilo de roupas "Bubblegum" é uma moda que se inspira no mundo da cultura pop, especificamente na cultura
+            pop dos anos 1950 e 1960, com ênfase em elementos coloridos, divertidos e um toque retrô. Esse estilo é
+            fortemente influenciado pela estética das décadas passadas e frequentemente incorpora elementos como cores
+            pastéis, estampas vibrantes, saias rodadas, tops cropped, sapatos de salto alto, meias 3/4 e acessórios fofos,
+            como laços, fitas e pérolas
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid teste fundo" id="LUXURY">
+      <div class="estilo1">
+        <div class="m-auto w-100 text-center">
+          <img src="img/LUXURY.png" class="estilo1-img">
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="estilo">
+        <div class="estilo-txt text-center">
+          <hr class="border border-3 opacity-75">
+          <h1 class="title text-center b fs-1">LUXURY</h1>
+          <hr class="border border-3 opacity-75">
+          <br>
+          <p class="text-center b sub-titulo fs-6">
+            Uma coleção pensada para quem ama a moda urbana. Ao contrário de tendências efêmeras que são desgastadas
+            rapidamente, o street style é um estilo duradouro e atemporal, mantendo-se atual e versátil em qualquer
+            época.
+          </p>
+        </div>
+        <div class="m-auto w-50 text-center">
+          <img src="img/luxury3.png" class="estilo3-img">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- Final da One Page -->
+    <div class="footer fundo">
+      <div class="d-flex flex-row mb-3">
+        <div class="p-2 contato">
+          <div class="estilo-txt text-center">
             <hr class="border border-3 opacity-75">
-            <h1 class="home-title text-center b fs-1">Luxury</h1>
+            <h1 class="home-title text-center b fs-1">CONTATO</h1>
             <hr class="border border-3 opacity-75">
             <br>
             <p class="text-center b sub-titulo fs-6">
-              É um pouco mais fluido que o de estilo clássico, combinado elementos de outros estilos em suas combinações. É um estilo minimalista e elegante, que valoriza o equilíbrio, sem excessos em suas composições.
-           </p>
+              Telefone: (00)000000000
+            <p>
+              <img src="img/icons-whats.png" class="img-fluid" alt="">
+              <img src="img/icons-facebook.png" class="img-fluid" alt="">
+              <img src="img/icons-instragram.png" class="img-fluid" alt="">
+            </p>
+            </p>
+          </div>
         </div>
+        <div class="p-2 sobre">
+          <div class="estilo-txt text-center">
+            <hr class="border border-3 opacity-75">
+            <h1 class="home-title text-center fs-1">SOBRE A LUMIÈRE</h1>
+            <hr class="border border-3 opacity-75">
+            <br>
+            <p class="text-center sub-titulo fs-6">
+              Somos uma loja de roupas que busca trazer estilos variados que estão na moda atual.
+              Com coleções únicas, pensadas principalmente no público jovem e para todos os tipos de corpos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+
+
+  </div>
 </body>
+
 </html>
