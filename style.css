@@ -108,7 +108,7 @@ Body {
     height: 2em;
     font-size: 1rem;
     background-color: white;
-    border: 1px solid;
+    border: 1px solid rgba(0, 0, 0, 0.297);
     min-width: 400px;
     border-radius: 8px;
     align-content: center;
