@@ -30,6 +30,10 @@ Body {
     z-index: 0;
     font-family: 'GFS Didot', serif;
 }
+/* Footer da One Page */
+.footer {
+  background: url(img/Background.png);
+}
 
 
 #principal {
