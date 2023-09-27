@@ -1,229 +1,283 @@
-body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@0,6..96;1,6..96&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+
+Body {
+    font-family: 'Bodoni Moda', serif;
+    overflow-x: hidden;
+    background: #d5cebc;
 }
+
+
+
 .navbar {
-  z-index: 1;
-  background:url(img/BackGround.png);
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    background: url(img/Background.png);
+    z-index: 1;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bodoni Moda', serif;
 }
 
 /* Background */
 .fundo {
-  background:url();
-  height: 100vh;
-  width: 100%;
-  z-index: 0;
+    background: #d5cebc;
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+    font-family: 'GFS Didot', serif;
 }
 
-#principal{
-    background-color: #ffffff;
+
+#principal {
     padding-bottom: 100px;
-    background: url(img/BackGround.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    font-family: 'Bodoni Moda', serif;
 }
+
 #STREET {
-  background: url(img/StreetGround.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    padding-bottom: 100px;
 }
+
 #LUXURY {
-  background: url(img/LUXURYGround.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    padding-bottom: 100px;
 }
+
 #BUBBEGUM {
-  background: url(img/BUBBLEGUMGround.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    padding-bottom: 100px;
 }
+
 #KOREAN {
-  background: url(img/KOREANGround.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+    padding-bottom: 100px;
 }
+
 
 
 /*Icons da NavBar*/
 .icons {
-  max-width: 40px;
-  width: 40px;
-  padding-left: 10px;
-  padding-top: 6px;
+    max-width: 40px;
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 6px;
 }
 
 .coraçao {
-  padding-left: 10px;
+    padding-left: 10px;
 }
 
 /* Nav Bar */
 
 /* Logo */
 .logo {
-  max-width: 5px;
-  width: 135px;
-  padding-bottom: 5px;
+    max-width: 5px;
+    width: 135px;
+    padding-bottom: 5px;
 }
 
 /*Barra de Pesquisa , imagem lupa e botão*/
 .lupa {
-  max-width: 20px;
+    max-width: 20px;
 }
 
 /* Botão Lupa */
 .btn-outline-light {
-  border-color: #ffffff;
-  background-color: #ffffff;
+    border-color: #ffffff;
+    background-color: #ffffff;
 }
+
 .barralupa {
-  margin: 0.3em auto;
-  height: 2em;
-  font-size: 1rem;
-  background-color: rgb(255, 255, 255);
-  border-color: #ffffff;
-  border-radius: 8px;
-  align-content: center;
-  align-items: center;
+    margin: 0.3em auto;
+    height: 2em;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-color: #ffffff;
+    border-radius: 8px;
+    align-content: center;
+    align-items: center;
 }
 
 /* Botão de Pesquisa */
 .barra {
-  margin: 0.3em;
-  height: 2em;
-  font-size: 1rem;
-  background-color:white;
-  border:1px solid;
-  min-width: 400px;
-  border-radius: 8px;
-  align-content: center;
-  align-items: center;
+    margin: 0.3em;
+    height: 2em;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid;
+    min-width: 400px;
+    border-radius: 8px;
+    align-content: center;
+    align-items: center;
 }
 
 .pesquisa {
-  margin: auto;
+    margin: auto;
 }
 
 
 
 /*Botão Login*/
-.login{
-  background-color:white;
+.login {
+    background-color: white;
 }
+
 .btn-login:hover {
-  background: rgb(255, 0, 0);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-decoration: none;
+    background: rgb(255, 0, 0);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
 }
 
 .btn-login:hover::before {
-  -webkit-animation: sh02 0.5s 0s linear;
-  -moz-animation: sh02 0.5s 0s linear;
-  animation: sh02 0.5s 0s linear;
-  text-decoration: none;
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+    text-decoration: none;
 }
 
 /* Class para colocar padding top*/
 .fundo2 {
-  padding-top: 65px;
+    padding-top: 65px;
 }
 
 /*Ancorrangem dos links*/
 
 /*COLEÇÃO STREET STYLE*/
 .coss {
-  font-size: 1.2rem;
-  margin: auto;
-  text-decoration: none;
+    font-size: 1.2rem;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'GFS Didot', serif;
+    font-weight: 600;
 }
 
 /*COLEÇÃO KOREAN AUTUMN*/
 .cka {
-  font-size: 1.2rem;
-  padding-left: 5px;
-  text-decoration: none;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    text-decoration: none;
+    font-family: 'GFS Didot', serif;
+    font-weight: 600;
+
 }
 
 /*COLEÇÃO LUXURY*/
 .clu {
-  font-size: 1.2rem;
-  padding-left: 5px;
-  text-decoration: none;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    text-decoration: none;
+    font-family: 'GFS Didot', serif;
+    font-weight: 600;
 }
 
 /*COLEÇÃO BUBBEGUM*/
 .cbu {
-  font-size: 1.2rem;
-  padding-left: 5px;
-  text-decoration: none;
+    font-size: 1.2rem;
+    padding-left: 5px;
+    text-decoration: none;
+    font-family: 'GFS Didot', serif;
+    font-weight: 600;
 }
 
 /* Carrosel */
 /*Parede do carrosel*/
 .parede {
-  max-width: 700px;
-  align-content: center;
-  align-items: center;
-  margin: auto;
+    max-width: 700px;
+    align-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 
 /* Descriçoes dos estilos */
-.estilo div, .estilo div img{
-  width: 50vw;
+/* Div principal */
+.teste {
+    display: flexbox;
+    margin: auto;
+    height: 100%;
+    font-family: 'Bodoni Moda', serif;
 }
 
-.estilo{
-  display: flex;
-  flex-wrap: nowrap;
+/* Imagem principal das descriçoes */
+
+.estilo1-img {
+    padding-top: 65px;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70vw;
 }
 
-.estilo-img{
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 100px;
+
+/* Imagem Secundario das descriçoes */
+.estilo div,
+.estilo div img {
+    width: 50vw;
 }
 
-.estilo-txt{
-  margin: auto;
+
+.estilo {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
 }
-.estilo-txt hr{
-  border: solid 1px black;
-  width: 30rem;
-  margin: auto;    
+
+.estilo-img {
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    max-width: 45vw;
 }
+
+.estilo-txt {
+    margin: auto;
+    width: 45%;
+}
+
+.estilo-txt hr {
+    border: solid 1px black;
+    margin: auto;
+}
+
+.estilo3-img {
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    max-width: 400px;
+}
+
+.title {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 600;
+}
+
 .sub-titulo {
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: 'Bodoni Moda', serif;
 }
-
 
 /* Classes para o final da one page */
+
 .contato {
-  width:50vw;
-  height: 100vh;
-  margin: auto;
-  width: 30rem;   
-  display: flex;
-  flex-wrap: nowrap;
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+    width: 30rem;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'GFS Didot', serif;
 }
+
 .sobre {
-  width:51vw;
-  height:100vh;
-  margin: auto;
-  width: 30rem;   
-  display: flex;
-  flex-wrap: nowrap;
+    width: 51vw;
+    height: 100vh;
+    margin: auto;
+    width: 30rem;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'GFS Didot', serif;
 }
