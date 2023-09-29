@@ -1,0 +1,10 @@
+.teste {
+    flex-direction: column;
+}
+.logo {
+    max-width: 5px;
+    width: 135px;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
