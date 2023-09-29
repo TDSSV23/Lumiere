@@ -7,13 +7,11 @@
 Body {
     font-family: 'Bodoni Moda', serif;
     overflow-x: hidden;
-    background: #d5cebc;
 }
 
 
-
+/* Nav Bar */
 .navbar {
-    background: url(img/Background.png);
     z-index: 1;
     width: 100vw;
     background-repeat: no-repeat;
@@ -21,46 +19,7 @@ Body {
     background-position: center;
     font-family: 'Bodoni Moda', serif;
 }
-
-/* Background */
-.fundo {
-    background: #d5cebc;
-    height: 100vh;
-    width: 100%;
-    z-index: 0;
-    font-family: 'GFS Didot', serif;
-}
-/* Footer da One Page */
-.footer {
-  background: url(img/Background.png);
-}
-
-
-#principal {
-    padding-bottom: 100px;
-    font-family: 'Bodoni Moda', serif;
-}
-
-#STREET {
-    padding-bottom: 100px;
-}
-
-#LUXURY {
-    padding-bottom: 100px;
-}
-
-#BUBBEGUM {
-    padding-bottom: 100px;
-}
-
-#KOREAN {
-    padding-bottom: 100px;
-}
-
-
-
-
-/* Nav Bar */
+/* Elementos da Nav Bar */
 /* Logo */
 .logo {
     max-width: 5px;
@@ -96,7 +55,7 @@ Body {
     height: 2em;
     font-size: 1rem;
     background-color: white;
-    border: 1px solid rgba(0, 0, 0, 0.297);
+    border: 1px solid;
     min-width: 400px;
     border-radius: 8px;
     align-content: center;
@@ -107,79 +66,26 @@ Body {
     margin: auto;
 }
 
-
-
-/*Botão Login*/
-.login {
-    background-color: white;
+/* Padding Top */
+.fundo2{
+    padding-top: 55px;
+    display: flex;
+    text-align: justify;
 }
 
-.btn-login:hover {
-    background: rgb(255, 0, 0);
-    -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
-    text-decoration: none;
-}
-
-.btn-login:hover::before {
-    -webkit-animation: sh02 0.5s 0s linear;
-    -moz-animation: sh02 0.5s 0s linear;
-    animation: sh02 0.5s 0s linear;
-    text-decoration: none;
-}
-
-/* Class para colocar padding top*/
-.fundo2 {
-    padding-top: 65px;
-}
-.street {
-  padding-top: 50px;
-  border-radius: 32px;
-}
-
-/*Ancorrangem dos links*/
-
-/*COLEÇÃO STREET STYLE*/
-.coss {
-    font-size: 1.2rem;
-    margin: auto;
-    text-decoration: none;
-    font-family: 'GFS Didot', serif;
+/* Class de titulos das descriçoes */
+.title {
+    font-family: 'Bodoni Moda', serif;
     font-weight: 600;
+    text-align: center;
 }
-
-/*COLEÇÃO KOREAN AUTUMN*/
-.cka {
-    font-size: 1.2rem;
-    margin: auto;
-    padding-left: 5px;
-    text-decoration: none;
-    font-family: 'GFS Didot', serif;
+.sub-titulo {
+    font-size: 15px;
+    font-style: normal;
     font-weight: 600;
-
+    line-height: normal;
+    font-family: 'Bodoni Moda', serif;
 }
-
-/*COLEÇÃO LUXURY*/
-.clu {
-    font-size: 1.2rem;
-    padding-left: 5px;
-    margin: auto;
-    text-decoration: none;
-    font-family: 'GFS Didot', serif;
-    font-weight: 600;
-}
-
-/*COLEÇÃO BUBBEGUM*/
-.cbu {
-    font-size: 1.2rem;
-    padding-left: 5px;
-    margin: auto;
-    text-decoration: none;
-    font-family: 'GFS Didot', serif;
-    font-weight: 600;
-}
-
 /* Carrosel */
 /*Parede do carrosel*/
 .parede {
@@ -189,6 +95,7 @@ Body {
     margin: auto;
     border-radius: 32px;
 }
+/* Imagens dos Carrosel*/
 .caroseel-img {
   padding-top: 20px;
   align-content: center;
@@ -197,96 +104,27 @@ Body {
   width: 100vw;
 }
 
-
-/* Descriçoes dos estilos */
-/* Div principal */
-.teste {
-    display: flexbox;
-    margin: auto;
-    height: 100%;
-    font-family: 'Bodoni Moda', serif;
+/* Botoes de comprar */
+.btncomprar {
+    background-color: rgba(128, 128, 128, 0.445);
+    text-decoration: none;
+    border:1.5px solid gray;
+    border-radius: 6px;
 }
-
-/* Imagem principal das descriçoes */
-
-.estilo1-img {
-    padding-top: 65px;
-    align-content: center;
-    align-items: center;
-    margin: auto;
-    width: 70vw;
+.btncomprar:hover {
+    background:rgb(67, 67, 67);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
 }
-
-
-/* Imagem Secundario das descriçoes */
-.estilo div,
-.estilo div img {
-    width: 50vw;
+.btncomprar:hover:before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+    text-decoration: none;
 }
-
-
-.estilo {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-}
-
-.estilo-img {
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    max-width: 45vw;
-}
-
-.estilo-txt {
-    margin: auto;
-    width: 45%;
-}
-
-.estilo-txt hr {
-    border: solid 1px black;
-    margin: auto;
-}
-
-.estilo3-img {
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    max-width: 400px;
-}
-
-
-/* Class de titulos das descriçoes */
-.title {
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 600;
-}
-
-.sub-titulo {
-    text-align: center;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-family: 'Bodoni Moda', serif;
-}
-
-/* Classes para o final da one page */
-
-.contato {
-    width: 50vw;
-    height: 100vh;
-    margin: auto;
-    width: 30rem;
-    display: flex;
-    flex-wrap: nowrap;
-    font-family: 'GFS Didot', serif;
-}
-
-.sobre {
-    width: 51vw;
-    height: 100vh;
-    margin: auto;
-    width: 30rem;
-    display: flex;
-    flex-wrap: nowrap;
-    font-family: 'GFS Didot', serif;
+.link {
+    color:black;
+    text-decoration: none;
 }

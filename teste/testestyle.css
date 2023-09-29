@@ -12,7 +12,6 @@ Body {
 
 /* Nav Bar */
 .navbar {
-
     z-index: 1;
     width: 100vw;
     background-repeat: no-repeat;
@@ -107,7 +106,22 @@ Body {
 
 /* Botoes de comprar */
 .btncomprar {
-    background-color: rgba(255, 217, 0, 0.575);
+    background-color: rgba(128, 128, 128, 0.445);
+    text-decoration: none;
+    border:1.5px solid gray;
+    border-radius: 6px;
+}
+.btncomprar:hover {
+    background:rgb(67, 67, 67);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    text-decoration: none;
+}
+.btncomprar:hover:before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
     text-decoration: none;
 }
 .link {
