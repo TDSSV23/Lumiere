@@ -1,40 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--Links Css-->
-  <link rel="stylesheet" href="testestyle.css">
-  <link rel="stylesheet" href="../bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <!--Links Css-->
+    <link rel="stylesheet" href="testestyle.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.1-dist/css/bootstrap.min.css">
+  
+    <!--Link Javascript-->
+    <script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
 
-  <!--Link Javascript-->
-  <script src="../bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
-
-  <!-- Icone da Pagina -->
-  <link rel="icon" href="../img/IconL.png">
-  <!--Nome da Pegina-->
-  <title class="modal-title">teste</title>
+  <title>Teste</title>
 </head>
-
-<body class="fundo">
+<body>
   <!--NavBar Principal-->
   <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="../img/Logo.png" class="img-fluid logo" alt="..."></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 pesquisa">
-
           <!--Barra de Pesquisa-->
           <li class="nav-item ">
             <form class="d-flex  justify-content-center" role="search">
               <input class="me-2 barra" type="search" placeholder="Pesquise" aria-label="Search">
-              <button class="btn btn-outline-light barralupa" type="submit"><img src="img/icons-lupa.png"
+              <button class="btn btn-outline-light barralupa" type="submit"><img src="../img/icons-lupa.png"
                   class="lupa d-flex justify-content-center" alt=""></button>
             </form>
           </li>
@@ -42,212 +36,22 @@
       </div>
     </div>
   </nav>
-
   <!-- Div da Primeira Pagina -->
-  <div class="justify-content-center m-5 ">
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-      <!-- CART DO BUBBLEGUM -->
-      <div class="col gallery-item fundo2 Buble">
-        <div class="card1 h-100">
-          <img src="../img/Bubblegum/bubblegum.png" class="card-img-top" alt="Kit" width="300" height="200">
-          <div class="card-body">
-            <h5 class="card-title title">Estilo Bublegum</h5>
-            <p class="card-text card-subtitle">O estilo "Bubblegum" é uma moda inspirada na cultura pop dos anos 1950 e
-              1960, marcada
-              por cores pastéis, estampas vibrantes e elementos retrô.</p>
-          </div>
-          <div class="card-footer1 d-grid gap-2">
-            <button type="button" class="btncomprar"><a href="#BUBBLEGUM" class="link">Comprar</a></button>
-          </div>
-        </div>
-      </div>
-      <!-- CART DO STREET -->
-      <div class="col gallery-item fundo2 street">
-        <div class="card1 h-100">
-          <img src="../img/Street Style/Street Style.png" class="card-img-top" alt="Kit" width="300" height="200">
-          <div class="card-body">
-            <h5 class="card-title title">Street Style</h5>
-            <p class="card-text card-subtitle"> Uma coleção pensada para quem ama a moda urbana. Ao contrário de
-              tendências efêmeras que são desgastadas rapidamente,o street style é um estilo duradouro</p>
-          </div>
-          <div class="card-footer1 d-grid gap-2">
-            <button type="button" class="btncomprar"><a href="#STREET" class="link">Comprar</a></button>
-          </div>
-        </div>
-      </div>
-      <!-- CART DO LUXURY -->
-      <div class="col gallery-item fundo2 lux">
-        <div class="card1 h-100">
-          <img src="../img/Luxury/Luxury.png" class="card-img-top" alt="Kit" width="300" height="200">
-          <div class="card-body">
-            <h5 class="card-title title">Luxury</h5>
-            <p class="card-text card-subtitle">É um estilo minimalista e elegante, que valoriza o equilíbrio, sem
-              excessos em suas composições. Combinado elementos de outros estilos em suas combinações.</p>
-          </div>
-          <div class="card-footer1 d-grid gap-2">
-            <button type="button" class="btncomprar"><a href="#LUXURY" class="link">Comprar</a></button>
-          </div>
-        </div>
-      </div>
-      <!-- CART DO KOREAN -->
-      <div class="col gallery-item fundo2 korean">
-        <div class="card1 h-100">
-          <img src="../img/Korean Autunm/KOREAN AUTUMN.png" class="card-img-top" alt="Kit" width="300" height="200">
-          <div class="card-body">
-            <h5 class="card-title title">Korean Autumn</h5>
-            <p class="card-text card-subtitle">Leves roupas em camadas, como suéteres leves e jaquetas. Esse estilo é
-              caracterizado por seu equilíbrio entre o minimalismo e a sofisticação.</p>
-          </div>
-          <div class="card-footer1 d-grid gap-2">
-            <button type="button" class="btncomprar"><a href="#KOREAN" class="link">Comprar</a></button>
-          </div>
-        </div>
-      </div>
+  <div class="justify-content-center">
+    <div class="row row-cols-1 row-cols-md-4 ">
 
     </div>
   </div>
-  <!-- Div das Paginas dos Estilos -->
-  <!-- Div da Bubblegum -->
-  <div class="container-fluid" id="BUBBLEGUM">
-    <hr class="border border-3 opacity-75">
-    <h1 class="title text-center b fs-1">Bubblegum</h1>
-    <hr class="border border-3 opacity-75">
-    <!--Carrosel ou Slider automatico-->
-    <div class="d-flex justify-content-center caroseel-img">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="1500">
-
-            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-              src="../img/Bubblegum/Bubble.png" alt="Coleção Bubblegum">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-              src="../img/Bubblegum/Bubble 2.png" alt="Coleção BUBBLEGUM">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-              src="../img/Bubblegum/Bubble 3.jpg" alt="Coleção BUBBLEGUM">
-          </div>
-        </div>
-      </div>
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
 
-    <!-- Div da STREET -->
-    <div class="container-fluid" id="KOREAN">
-      <hr class="border border-3 opacity-75">
-      <h1 class="title text-center b fs-1">KOREAN AUTUMN</h1>
-      <hr class="border border-3 opacity-75">
-      <!--Carrosel ou Slider automatico-->
-      <div class="d-flex justify-content-center caroseel-img">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="1500">
-  
-              <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-                src="../img/Korean Autunm/KOREAN.png" alt="Coleção KOREAN">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-                src="../img/Korean Autunm/KOREAN2.png" alt="Coleção KOREAN">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-                src="../img/Korean Autunm/KOREAN3.png" alt="Coleção KOREAN">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-      <!-- Div da LUXURY -->
-  <div class="container-fluid" id="LUXURY">
-    <hr class="border border-3 opacity-75">
-    <h1 class="title text-center b fs-1">LUXURY</h1>
-    <hr class="border border-3 opacity-75">
-    <!--Carrosel ou Slider automatico-->
-    <div class="d-flex justify-content-center caroseel-img">
-      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="1500">
-
-            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-              src="../img/Luxury/luxury1.png" alt="Coleção LUXURY">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-              src="../img/Luxury/luxury2.png" alt="ColeçãO LUXURY">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-              src="../img/Luxury/luxury3.png" alt="Coleção LUXURY">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- Div da KOREAN AUTUNM -->
-    <div class="container-fluid" id="STREET">
-      <hr class="border border-3 opacity-75">
-      <h1 class="title text-center b fs-1">STREET STYLE</h1>
-      <hr class="border border-3 opacity-75">
-      <!--Carrosel ou Slider automatico-->
-      <div class="d-flex justify-content-center caroseel-img">
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner estilo">
-            <div class="carousel-item active" data-bs-interval="1500">
-              <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-                src="../img/Street Style/Street.png" alt="Coleção STREET">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-              src="../img/Street Style/Street2.png" alt="Coleção STREET">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 parede" width="300" height="400"
-              src="../img/Street Style/Street3.png" alt="Coleção STREET">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
-
-  <!-- Final da One Page -->
-  <div class="footer fundo">
-    <div class="d-flex flex-row mb-3">
-      <div class="p-2 contato">
-        <div class="estilo-txt text-center">
-          <hr class="border border-3 opacity-75">
-          <h1 class="title text-center b fs-1">CONTATO</h1>
-          <hr class="border border-3 opacity-75">
-          <br>
-          <p class="text-center b sub-titulo fs-6">
-            Telefone: (00)000000000
-          <p>
-            <a href="https://chat.whatsapp.com/HH8Ye6csFB31yikp5DhILf" class="link-dark" target="_blank"><img
-                src="../img/icons-whats.png" class="img-fluid" alt=""></a>
-            <img src="../img/icons-facebook.png" class="img-fluid" alt="">
-            <a href="https://instagram.com/_lumiere__store?igshid=MzRlODBiNWFlZA==" class="link-dark"><img
-                src="../img/icons-instragram.png" class="img-fluid" alt=""></a>
-          </p>
-          </p>
-        </div>
-      </div>
-      <div class="p-2 sobre">
-        <div class="estilo-txt text-center">
-          <hr class="border border-3 opacity-75">
-          <h1 class="title text-center fs-1">SOBRE</h1>
-          <hr class="border border-3 opacity-75">
-          <br>
-          <p class="text-center sub-titulo fs-6">
-            Somos uma loja de roupas que busca trazer estilos variados que estão na moda atual.
-            Com coleções únicas, pensadas principalmente no público jovem e para todos os tipos de corpos.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
 </body>
 </html>

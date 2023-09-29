@@ -66,9 +66,13 @@ Body {
     margin: auto;
 }
 
-/* Padding Top */
+/* Fundo */
+.fundo{
+    padding-bottom: 100px;
+
+}
 .fundo2{
-    padding-top: 55px;
+    padding-top: 120px;
     display: flex;
     text-align: justify;
 }
